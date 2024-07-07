@@ -1,0 +1,61 @@
+.container
+{
+    background-color: antiquewhite;
+    height: auto;
+    /*align-items:center;*/
+    display: flex;
+    /* flex-wrap:wrap;*/
+    justify-content: center;
+}
+h1{
+    background-color: blue;
+    text-align: center;
+}
+.box{
+    height: 140px;
+    width: 140px;
+    border: 2px solid black;
+    margin: 20px;
+}
+#box1{
+    background-image:url("/Image/mount.jpg") ;
+    background-size:cover ;
+    border-radius: 30px;
+    box-shadow:5px 5px 5px 5px grey;
+    flex-shrink: 1;
+}
+#box2{
+    background-image:url("/Image/lack.jpg") ;
+    background-size:cover ;
+    border-radius: 30px;
+    box-shadow:5px 5px 5px 5px grey;
+    flex-shrink: 2;
+}
+#box3{
+    background-image:url("/Image/painting.jpg") ;
+    background-size:cover ;
+    border-radius: 30px;
+    box-shadow:5px 5px 5px 5px grey;
+    flex-shrink: 3;
+}
+#box4{
+    background-image:url("Image/sun.jpg");
+    background-size:cover ;
+    border-radius: 30px;
+    box-shadow:5px 5px 5px 5px grey;
+    flex-shrink: 6;
+}
+#box5{
+    background-image:url("/Image/poster-rockies-showing-mountain-landscape-with-river-mountains-background_625492-5955.jpg") ;
+    background-size:cover ;
+    border-radius: 30px;
+    box-shadow:5px 5px 5px 5px grey;
+    
+}
+#box6{
+    background-image:url("/Image/water.jpg") ;
+    background-size:cover ;
+    border-radius: 30px;
+    box-shadow:5px 5px 5px 5px grey;
+    flex-shrink: 5;
+}
